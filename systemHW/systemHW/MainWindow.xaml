@@ -1,0 +1,14 @@
+﻿<Window x:Class="systemHW.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:systemHW"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="PeachPuff">
+    <Grid>
+        <Button x:Name="ClickForOpenApp" Content="нажмите для открытия дочерней программы" Click="ClickForOpenApp" Margin="50,150" Background="#FFDDDDDD" >
+            
+        </Button>
+    </Grid>
+</Window>
